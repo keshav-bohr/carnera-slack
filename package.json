@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch ./api/index.js"
+    "dev": "node --watch ./index.js",
+    "start": "node ./index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.9",
     "body-parser": "^1.20.3",
     "express": "^4.21.2"
+  },
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
   }
 }
